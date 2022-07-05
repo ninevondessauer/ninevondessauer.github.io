@@ -1,0 +1,314 @@
+/* @ Documentation */
+
+/* Colors obtained from different palletes from colorhunt.co.
+
+Palettes chosen:
+  - https://colorhunt.co/palette/f4eeffdcd6f7a6b1e1424874
+  - https://colorhunt.co/palette/e9d5ca8273974d4c7d363062
+  - https://colorhunt.co/palette/cdf0eaf9f9f9f6c6eac490e4
+*/
+
+/* @HTML Tags */
+
+html {
+  scroll-behavior: auto !important;
+}
+
+body {
+  background-color: #F9F9F9;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: #827397;
+  text-decoration: none;
+}
+
+footer {
+  vertical-align: top;
+}
+
+a:hover {
+  color: #827397;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* @Icons */
+.personal-icon {
+  margin: 20px 10px 0;
+  color: #363062;
+}
+
+.clickable-icon:hover {
+  opacity: 0.75;
+}
+
+.title-icon {
+  color: rgb(33,37,41);
+}
+
+.title-icon:hover {
+  color: rgb(33,37,41);
+  opacity: 0.75;
+}
+
+/* @Containers */
+.container-fluid {
+  padding: 0 5%;
+}
+
+.image-container {
+  text-align: center;
+  margin: auto 0;
+}
+
+.section-container {
+  min-height: max(90vh, 500px);
+  padding-top: 120px;
+}
+
+/* @Sections */
+.centered-section {
+  text-align: center;
+}
+
+.left-aligned-section {
+  text-align: left;
+}
+
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+/* @ Buttons */
+.download-button {
+  margin: 0 5%;
+}
+
+.card-button {
+  color: #fff;
+  background-color: rgb(71, 96, 114);
+}
+
+.card-button:hover {
+  background-color: #fff;
+  color: rgb(71, 96, 114);
+  border-color: rgb(71, 96, 114);
+  text-decoration: none;
+}
+
+.colab-button {
+  /* color: rgb(33, 37, 41); */
+  background-color: rgb(249, 171, 0);
+}
+
+.colab-button:hover {
+  background-color: #fff;
+  color: rgb(249, 171, 0);
+  border-color: rgb(249, 171, 0);
+  text-decoration: none;
+}
+
+
+/* @ Nav Bar */
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.navbar-coloration {
+  background-color: #424874;
+}
+
+.navbar-brand h1 {
+  color: rgb(238, 238, 238);
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+}
+
+.navbar-brand h1:hover {
+  color: rgb(179, 179, 179);
+  color: rgba(238, 238, 238, 0.75);
+}
+
+.nav-link {
+  color: rgb(131, 131, 131);
+  color: rgba(238, 238, 238, 0.55);
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+  color: rgba(238, 238, 238, 0.75);
+}
+
+.nav-link.active {
+  color: rgb(238, 238, 238);
+}
+
+.navbar .container-fluid {
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.toggler-icon {
+    display: block;
+    background-color: rgb(238,238,238);
+    height: 2px;
+    width: 26px;
+    margin: 5px 0 ;
+    opacity: 0.8;
+    transition: all 0.2s;
+    transform-origin: center left;
+}
+
+.custom-toggler:not(.collapsed) .top-bar {
+    margin-top: 0.3em;
+}
+
+.custom-toggler:not(.collapsed) .top-bar {
+    transform: translate(15%, -100%) rotate(45deg);
+}
+
+.custom-toggler:not(.collapsed) .middle-bar {
+    opacity: 0;
+}
+
+.custom-toggler:not(.collapsed) .bottom-bar {
+    transform: translate(15%, 100%) rotate(-45deg) ;
+}
+
+.custom-toggler .top-bar {
+    transform: translate(0%, 0%) rotate(0deg) ;
+}
+
+.custom-toggler .bottom-bar {
+    transform: translate(0%, 0%) rotate(0deg) ;
+}
+
+/* @Title Section */
+.about-me-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  margin: auto 0;
+}
+
+.title-image {
+  width: 70%;
+  border-radius: 100%;
+}
+
+/* @Research Section */
+.research-subsection {
+  padding-bottom: 2%;
+}
+
+.research-element {
+  padding: 0 0 5%;
+}
+
+.paper-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* @Teaching Section */
+.course-container {
+  padding-bottom: 5rem;
+}
+
+.course-title {
+  padding-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight:
+}
+
+.class-item {
+  font-size: 0.875rem;
+  align-items: center;
+}
+
+/* @Coursework Section */
+.coursework-card-title-wrapper {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-wrapper {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* @Footer Section */
+#footer {
+  background-color: #A6B1E1;
+  color: #363062;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+#footer .container-fluid {
+  padding: 2% 5%;
+}
+
+#footer p {
+  margin: 0;
+}
+
+#footer a {
+  color: #363062;
+}
+
+#footer a:hover {
+  color: #363062;
+}
+
+/* @Medium and large media queries */
+@media (min-width: 768px) {
+  /* @ Title media queries */
+  #about-me .section-container {
+    padding: auto 0;
+  }
+}
+
+/* @Small Media queries */
+@media (max-width: 767px) {
+
+  /* @Containers media queries */
+  .container-fluid {
+    padding: 0 5%;
+  }
+
+  .section-container {
+    padding-top: 100px;
+  }
+
+  /* @ Title media queries */
+  #about-me {
+    text-align: center;
+  }
+
+  .about-me-text {
+    text-align: center;
+  }
+
+  #about-me .image-container {
+    padding: 0 0 3%;
+  }
+
+  .title-image {
+    width: 45%;
+  }
+}
